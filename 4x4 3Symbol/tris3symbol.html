@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Tris Game 4x4 3Symbol</title>
+    <meta charset="utf-8" />
+    <style></style>
+    <script type="text/javascript" src="tris.js"></script>
+</head>
+<body>
+    <div class="text">
+        <h1>Gioco Del Tris</h1>
+        <h3>Il gioco inizia cliccando una qualsiasi casella</h3>
+        <h3>Al primo giocatore verra' assegnata la X</h3>
+        <h3>Il secondo giocatore sara' distinto con la O</h3>
+        <h4>Il vincitore che per primo riuscira' ad ottenere 3 simboli orizzontalmente o parallelamente o diagonalmente</h4>
+        <h4>Altrimenti verra' iniziata una nuova partita</h4>
+    </div>
+
+    <div class="container">
+
+        <input type="text" id="one" onclick="myfunc_3(); myfunc();" readonly>
+
+        <input type="text" id="two" onclick="myfunc_4(); myfunc();" readonly>
+
+        <input type="text" id="three" onclick="myfunc_5(); myfunc();" readonly>
+
+        <input type="text" id="four" onclick="myfunc_6(); myfunc();" readonly>
+        <br><br>
+
+        <input type="text" id="five" onclick="myfunc_7(); myfunc();" readonly>
+
+        <input type="text" id="six" onclick="myfunc_8(); myfunc();" readonly>
+
+        <input type="text" id="seven" onclick="myfunc_9(); myfunc();" readonly>
+
+        <input type="text" id="eight" onclick="myfunc_10();myfunc();" readonly>
+        <br><br>
+
+        <input type="text" id="nine" onclick="myfunc_11();myfunc();" readonly>
+        <!--***MODALITA' 3 SIMBOLI CONSECUTIVI 4X4***-->
+        <input type="text" id="ten" onclick="myfunc_12();myfunc();" readonly>
+        <input type="text" id="eleven" onclick="myfunc_13();myfunc();" readonly>
+        <input type="text" id="twelve" onclick="myfunc_14();myfunc();" readonly>
+        <br><br>
+
+        <input type="text" id="thirteen" onclick="myfunc_15();myfunc();" readonly>
+        <input type="text" id="fourteen" onclick="myfunc_16();myfunc();" readonly>
+        <input type="text" id="fifteen" onclick="myfunc_17();myfunc();" readonly>
+        <input type="text" id="sixteen" onclick="myfunc_18();myfunc();" readonly>
+
+        <br><br><br>
+        <button class="reset" id="but" onclick="myfunc_2()">
+            RESET
+        </button>
+
+        <p class="print" id="print"></p>
+    </div>
+
+</body>
+</html>
