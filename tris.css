@@ -7,11 +7,14 @@
     border-radius: 20px;
     margin-left: 30%;
     margin-right: 48%;
+    text-align: center;
 }
 
 .reset {
+    width: 70px;
+    height: 30px;
     background-color: aquamarine;
-    border-radius: 20px;
+    border-radius: 10px;
     border-color: cadetblue;
 }
 
@@ -26,9 +29,19 @@ input {
     border-color: cadetblue;
 }
 
+p {
+    text-align: center;
+    font-size: 18px;
+    color: goldenrod;
+}
+
 .text {
     text-align: center;
     color: black;
     font-size: 18px;
     text-shadow: 2px 2px cadetblue;
+}
+
+.print {
+    color: dodgerblue;
 }
